@@ -1,0 +1,48 @@
+{
+  "DateTime": {
+    "is_cmd":"True",
+	"is_random":"False",
+	"val":"datetime_generator"
+  },
+  "TransactionId": {
+    "is_cmd":"True",
+	"is_random":"False",
+	"val":"transaction_id_generator"
+  },
+  "status":{
+    "is_cmd":"False",
+	"is_random":"True",
+	"val":["success","error","Declined"]
+  },
+  "CreditCard": {
+    "is_cmd":"True",
+	"is_random":"True",
+	"val":"credit_card_generator"
+  },
+  "Amount":{
+    "is_cmd":"False",
+	"is_random":"True",
+	"val":["1234", "2300", "1231.50", "3456.75", "2000"]
+  },
+  "method":{
+    "is_cmd":"False",
+	"is_random":"True",
+	"val":["Master","VISA"]
+  },
+  "merchant":{
+    "is_cmd":"False",
+	"is_random":"True",
+	"val":["reliance","dmart","bigBazar","wallmart","PuneCentral"]
+  },
+  "location":{
+    "is_cmd":"False",
+	"is_random":"True",
+	"val":["411017","411057", "843212", "102345", "489012", "40921"]
+  },
+  "remarks":{
+    "is_cmd":"False",
+	"is_random":"True",
+	"val":["No Remarks", "No Remarks","Swiped Twice", "Declined from Merchant", "Disputed Transaction", "No Remarks","No Remarks"],
+	"format":"f"
+  }
+}
